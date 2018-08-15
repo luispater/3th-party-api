@@ -65,6 +65,8 @@ app 下载链接：[http://www.wandoujia.com/apps/bingdic.android.activity](http
 
 ## [金山词典：API 链接](https://github.com/shichunlei/-Api/blob/master/KingsoftDic.md) ##
 
+![](https://img.shouji.com.cn/simg/20170517/5951484115.png)
+
 金山词典链接：[http://www.iciba.com/](http://www.iciba.com/)
 
 ## [豆瓣电影：API 链接](https://github.com/shichunlei/-Api/blob/master/豆瓣电影.md) ##
@@ -81,13 +83,13 @@ app 下载链接：[http://www.wandoujia.com/apps/com.nineton.weatherforecast](h
 
 ## [小米天气：API 链接](https://github.com/shichunlei/-Api/blob/master/XiaomiWeather.md) ##
 
-![](http://i1.piimg.com/567571/d9d68c0ad8def11b.png)
+![](http://pic.cr173.com/up/2016-5/20165231451326192.png)
 
 app 下载链接（非小米不可安装）：[http://www.cr173.com/soft/264860.html](http://www.cr173.com/soft/264860.html)
 
 ## [魅族天气：API 链接](https://github.com/shichunlei/-Api/blob/master/MeizuWeather.md) ##
 
-![](http://p1.bpimg.com/4851/4fe7a2df33d616b0.png)
+![](http://2.pic.paopaoche.net/up/2015-9/20159191024.png)
 
 app 下载链接：[http://www.paopaoche.net/android/97297.html](http://www.paopaoche.net/android/97297.html)
 
@@ -99,6 +101,8 @@ app 下载链接：[http://www.wandoujia.com/apps/com.meiriyiwen.app](http://www
 
 ## [快递100：API 链接](https://github.com/shichunlei/-Api/blob/master/ExpressDelivery100.md) ##
 
+![](https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=754290143,3715925479&fm=58&s=B1125032CD30DE134AD71DDC0200D0B0&bpow=121&bpoh=75)
+
 快递100网链接：[https://www.kuaidi100.com/](https://www.kuaidi100.com/)
 
 ## [快递网：API 链接](https://github.com/shichunlei/-Api/blob/master/ExpressDelivery.md) ##
@@ -107,8 +111,14 @@ app 下载链接：[http://www.wandoujia.com/apps/com.meiriyiwen.app](http://www
 
 ## [12306：API 链接](https://github.com/shichunlei/-Api/blob/master/12306.md) ##
 
+![](https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2903931940,3940106990&fm=96)
+
 12306 网站链接：[http://www.12306.cn/mormhweb/](http://www.12306.cn/mormhweb/)
 
 ## [途牛火车票：API链接](https://github.com/shichunlei/-Api/blob/master/TuniuTickets.md) ##
 
+![](http://h.hiphotos.bdimg.com/wisegame/wh%3D72%2C72/sign=5e8a87ed6f2762d0806bacb892c03fc8/377adab44aed2e737cb2bee28b01a18b86d6faa1.jpg)
+
 途牛火车票网链接：[http://huoche.tuniu.com/](http://huoche.tuniu.com/)
+
+app 下载链接：[http://shouji.baidu.com/software/24515935.html](http://shouji.baidu.com/software/24515935.html)
