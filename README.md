@@ -138,3 +138,7 @@ app 下载链接：[http://www.wandoujia.com/apps/com.meiriyiwen.app](http://www
 途牛火车票网链接：[http://huoche.tuniu.com/](http://huoche.tuniu.com/)
 
 app 下载链接：[http://shouji.baidu.com/software/24515935.html](http://shouji.baidu.com/software/24515935.html)
+
+
+
+## [壁纸：API链接](https://github.com/shichunlei/-Api/blob/master/壁纸.md) ##
