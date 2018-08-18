@@ -75,6 +75,22 @@ app 下载链接：[http://www.wandoujia.com/apps/bingdic.android.activity](http
 
 app 下载链接：[http://www.wandoujia.com/apps/com.douban.movie](http://www.wandoujia.com/apps/com.douban.movie)
 
+
+## [豆瓣图书：API 链接](https://github.com/shichunlei/-Api/blob/master/豆瓣图书.md) ##
+
+
+![](https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=183083214,2869211519&fm=58&s=18225F32C8615A010ED3B54D020030E3&bpow=121&bpoh=75)
+
+
+## [豆瓣同城：API 链接](https://github.com/shichunlei/-Api/blob/master/豆瓣同城.md) ##
+
+
+![](https://hiphotos.bdimg.com/wisegame/pic/item/2234970a304e251f0ba3654ba486c9177f3e5329.jpg)
+
+
+app 下载链接：[http://shouji.baidu.com/software/7319785.html](http://shouji.baidu.com/software/7319785.html)
+
+
 ## [中央天气预报：API 链接](https://github.com/shichunlei/-Api/blob/master/CenterWeather.md) ##
 
 ![](http://img.wdjimg.com/mms/icon/v1/5/22/05be4e3dc6e4beaf4be0c1249c176225_78_78.png)
