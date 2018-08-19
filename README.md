@@ -119,15 +119,27 @@ app 下载链接：[http://www.wandoujia.com/apps/com.meiriyiwen.app](http://www
 
 ![](https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=754290143,3715925479&fm=58&s=B1125032CD30DE134AD71DDC0200D0B0&bpow=121&bpoh=75)
 
-快递100网链接：[https://www.kuaidi100.com/](https://www.kuaidi100.com/)
+快递100链接：[https://www.kuaidi100.com/](https://www.kuaidi100.com/)
 
-## [快递网：API 链接](https://github.com/shichunlei/-Api/blob/master/ExpressDelivery.md) ##
+## [快递网：API 链接](https://github.com/shichunlei/-Api/blob/master/快递网.md)
+
+![](https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=4008918078,1205604941&fm=58&s=C81A7E9ECDE07D115AF3C142030050B3&bpow=121&bpoh=75)
 
 快递网链接：[http://www.kuaidi.com/](http://www.kuaidi.com/)
+
+
+## [爱快递：API 链接](https://github.com/shichunlei/-Api/blob/master/爱快递.md)
+
+![](https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3968761098,1587006682&fm=58&bpow=121&bpoh=75)
+
+
+爱快递：[https://www.aikuaidi.cn/](https://www.aikuaidi.cn/)
+
 
 ## [12306：API 链接](https://github.com/shichunlei/-Api/blob/master/12306.md) ##
 
 ![](https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2903931940,3940106990&fm=96)
+
 
 12306 网站链接：[http://www.12306.cn/mormhweb/](http://www.12306.cn/mormhweb/)
 
