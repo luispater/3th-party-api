@@ -1,4 +1,5 @@
-##直接爬取视频排行【已完成】:
+## Bilibili
+
 * 获取URL: `http://www.bilibili.tv/list/[stow]-[zone]-[page]-[year1]-[month1]-[day1]~[year2]-[month2]-[day2].html`
 
 * 返回：只关于视频部分的源码

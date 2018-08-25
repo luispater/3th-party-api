@@ -9,7 +9,7 @@
 
 app 下载链接：[http://www.wandoujia.com/apps/one.hh.oneclient](http://www.wandoujia.com/apps/one.hh.oneclient)
 
-## [时光网：API 链接](https://github.com/shichunlei/-Api/blob/master/Time.md)
+## [时光网：API 链接](https://github.com/shichunlei/-Api/blob/master/Time.md)##
 
 ![](http://img.wdjimg.com/mms/icon/v1/e/81/8974ffd9388f547dc8877e0c55d2e81e_78_78.png)
 
@@ -27,7 +27,7 @@ app 下载链接：[http://www.wandoujia.com/apps/com.ss.android.article.news](h
 
 app 下载链接：[http://www.wandoujia.com/apps/com.ss.android.essay.joke](http://www.wandoujia.com/apps/com.ss.android.essay.joke)
 
-## [开眼 Eyepetizer：API 链接](https://github.com/shichunlei/-Api/blob/master/Eyepetizer.md)
+## [开眼 Eyepetizer：API 链接](https://github.com/shichunlei/-Api/blob/master/Eyepetizer.md)##
 
 ![](http://img.wdjimg.com/mms/icon/v1/1/dc/50a4c597efe027933e3a3f90b0afbdc1_78_78.png)
 
@@ -121,14 +121,14 @@ app 下载链接：[http://www.wandoujia.com/apps/com.meiriyiwen.app](http://www
 
 快递100链接：[https://www.kuaidi100.com/](https://www.kuaidi100.com/)
 
-## [快递网：API 链接](https://github.com/shichunlei/-Api/blob/master/快递网.md)
+## [快递网：API 链接](https://github.com/shichunlei/-Api/blob/master/快递网.md)##
 
 ![](https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=4008918078,1205604941&fm=58&s=C81A7E9ECDE07D115AF3C142030050B3&bpow=121&bpoh=75)
 
 快递网链接：[http://www.kuaidi.com/](http://www.kuaidi.com/)
 
 
-## [爱快递：API 链接](https://github.com/shichunlei/-Api/blob/master/爱快递.md)
+## [爱快递：API 链接](https://github.com/shichunlei/-Api/blob/master/爱快递.md)##
 
 ![](https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3968761098,1587006682&fm=58&bpow=121&bpoh=75)
 
@@ -154,3 +154,10 @@ app 下载链接：[http://shouji.baidu.com/software/24515935.html](http://shouj
 
 
 ## [壁纸：API链接](https://github.com/shichunlei/-Api/blob/master/壁纸.md) ##
+
+
+## [百度音乐：API](https://github.com/shichunlei/-Api/blob/master/百度音乐.md) ##
+
+![](http://image.tianjimedia.com/uploadImages/2016/167/53/F6T4WQ96J5J2_2.png)
+
+app 下载链接：[http://www.mydown.com/soft/2/473302502.shtml](http://www.mydown.com/soft/2/473302502.shtml)
