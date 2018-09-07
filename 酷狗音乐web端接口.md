@@ -1121,7 +1121,7 @@ __接口地址:__ `http://m.kugou.com/app/i/getSongInfo.php`
 
 __参数:__
 
-`hash`：音乐列表下的 音乐id
+- `hash`：音乐列表下的 音乐id
 - `cmd`：playInfo
 
 __接口地址:__ [http://m.kugou.com/app/i/getSongInfo.php?cmd=playInfo&hash=CB7EE97F4CC11C4EA7A1FA4B516A5D97](http://m.kugou.com/app/i/getSongInfo.php?cmd=playInfo&hash=CB7EE97F4CC11C4EA7A1FA4B516A5D97)
