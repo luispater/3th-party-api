@@ -161,3 +161,17 @@ app 下载链接：[http://shouji.baidu.com/software/24515935.html](http://shouj
 ![](http://image.tianjimedia.com/uploadImages/2016/167/53/F6T4WQ96J5J2_2.png)
 
 app 下载链接：[http://www.mydown.com/soft/2/473302502.shtml](http://www.mydown.com/soft/2/473302502.shtml)
+
+
+## [酷狗音乐web版：API](https://github.com/shichunlei/-Api/blob/master/酷狗音乐web端接口.md) ##
+
+![](https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3420249703,2075615254&fm=58&s=A072CC3280259111015384CD030030AA&bpow=121&bpoh=75)
+
+酷狗音乐web版连接：[http://m.kugou.com/](http://m.kugou.com/)
+
+
+## [Mob API接口](https://github.com/shichunlei/-Api/blob/master/MobAPI.md) ##
+
+![](http://www.mob.com//assets/images/logo-51fcf38a.png)
+
+MOBAPI连接：[http://www.mob.com/product/api](http://www.mob.com/product/api)
