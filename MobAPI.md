@@ -5,12 +5,16 @@
 	- [1.2 根据城市名查询天气](#1.2)
 	- [1.3 根据IP查询天气](#1.3)
 	- [1.4 空气质量查询](#1.4)
-- [2](#2)
-	- [2.1](#2.1)
-- [3](#3)
-	- [3.1](#3.1)
-	- [3.2](#3.2)
-	- [3.3](#3.3)
+- [2 生活常用](#2)
+	- [2.1 手机号码查询接口](#2.1)
+	- [2.2 身份证信息](#2.2)
+	- [2.3 IP地址查询](#2.3)
+	- [2.4 基站定位查询](#2.4)
+	- [2.5 万年历查询](#2.5)
+- [3 邮编查询](#3)
+	- [3.1 邮编查询接口](#3.1)
+	- [3.2 邮编城市列表查询接口](#3.2)
+	- [3.3 邮编城市列表查询接口](#3.3)
 - [4 菜谱查询](#4)
 	- [4.1 菜谱分类标签查询](#4.1)
 	- [4.2 按标签查询菜谱接口](#4.2)
@@ -18,6 +22,15 @@
 - [5 微信精选](#5)
 	- [5.1 微信精选分类查询](#5.1)
 	- [5.2 微信精选列表查询](#5.2)
+- [6 驾考题库查询](#6)
+	- [6.1 科目一题库列表查询接口](#6.1)
+	- [6.2 科目四题库列表查询接口](#6.2)
+	- [6.3 专项题库分类查询接口](#6.3)
+	- [6.4 专项练习题库查询接口](#6.4)
+- [7 汽车信息查询](#7)
+	- [7.1 查询所有汽车品牌](#7.1)
+	- [7.2 车型查询](#7.2)
+	- [7.3 查询车型详细信息](#7.3)
 
 续。。。
 
@@ -231,21 +244,6 @@ JSON返回示例：
 	                        "aqi": 111,
 	                        "date": "2018-09-10",
 	                        "quality": "轻度污染"
-	                    },
-	                    {
-	                        "aqi": 106,
-	                        "date": "2018-09-11",
-	                        "quality": "轻度污染"
-	                    },
-	                    {
-	                        "aqi": 129,
-	                        "date": "2018-09-12",
-	                        "quality": "轻度污染"
-	                    },
-	                    {
-	                        "aqi": 101,
-	                        "date": "2018-09-13",
-	                        "quality": "轻度污染"
 	                    }
 	                ],
 	                "hourData": [
@@ -256,94 +254,6 @@ JSON返回示例：
 	                    {
 	                        "aqi": 25,
 	                        "dateTime": "2018-09-07 16:00:00"
-	                    },
-	                    {
-	                        "aqi": 25,
-	                        "dateTime": "2018-09-07 15:00:00"
-	                    },
-	                    {
-	                        "aqi": 24,
-	                        "dateTime": "2018-09-07 14:00:00"
-	                    },
-	                    {
-	                        "aqi": 24,
-	                        "dateTime": "2018-09-07 13:00:00"
-	                    },
-	                    {
-	                        "aqi": 22,
-	                        "dateTime": "2018-09-07 12:00:00"
-	                    },
-	                    {
-	                        "aqi": 20,
-	                        "dateTime": "2018-09-07 11:00:00"
-	                    },
-	                    {
-	                        "aqi": 20,
-	                        "dateTime": "2018-09-07 10:00:00"
-	                    },
-	                    {
-	                        "aqi": 17,
-	                        "dateTime": "2018-09-07 09:00:00"
-	                    },
-	                    {
-	                        "aqi": 25,
-	                        "dateTime": "2018-09-07 08:00:00"
-	                    },
-	                    {
-	                        "aqi": 44,
-	                        "dateTime": "2018-09-07 07:00:00"
-	                    },
-	                    {
-	                        "aqi": 53,
-	                        "dateTime": "2018-09-07 06:00:00"
-	                    },
-	                    {
-	                        "aqi": 23,
-	                        "dateTime": "2018-09-07 05:00:00"
-	                    },
-	                    {
-	                        "aqi": 24,
-	                        "dateTime": "2018-09-07 04:00:00"
-	                    },
-	                    {
-	                        "aqi": 22,
-	                        "dateTime": "2018-09-07 03:00:00"
-	                    },
-	                    {
-	                        "aqi": 24,
-	                        "dateTime": "2018-09-07 02:00:00"
-	                    },
-	                    {
-	                        "aqi": 20,
-	                        "dateTime": "2018-09-07 01:00:00"
-	                    },
-	                    {
-	                        "aqi": 29,
-	                        "dateTime": "2018-09-07 00:00:00"
-	                    },
-	                    {
-	                        "aqi": 25,
-	                        "dateTime": "2018-09-06 23:00:00"
-	                    },
-	                    {
-	                        "aqi": 26,
-	                        "dateTime": "2018-09-06 22:00:00"
-	                    },
-	                    {
-	                        "aqi": 30,
-	                        "dateTime": "2018-09-06 21:00:00"
-	                    },
-	                    {
-	                        "aqi": 39,
-	                        "dateTime": "2018-09-06 20:00:00"
-	                    },
-	                    {
-	                        "aqi": 31,
-	                        "dateTime": "2018-09-06 19:00:00"
-	                    },
-	                    {
-	                        "aqi": 38,
-	                        "dateTime": "2018-09-06 18:00:00"
 	                    }
 	                ],
 	                "no2": 11,
@@ -375,46 +285,6 @@ JSON返回示例：
 	                    "night": "多云",
 	                    "temperature": "27°C / 14°C",
 	                    "week": "星期六",
-	                    "wind": "北风 小于3级"
-	                },
-	                {
-	                    "date": "2018-09-09",
-	                    "dayTime": "多云",
-	                    "night": "多云",
-	                    "temperature": "27°C / 15°C",
-	                    "week": "星期日",
-	                    "wind": "西南风 小于3级"
-	                },
-	                {
-	                    "date": "2018-09-10",
-	                    "dayTime": "晴",
-	                    "night": "多云",
-	                    "temperature": "28°C / 17°C",
-	                    "week": "星期一",
-	                    "wind": "南风 小于3级"
-	                },
-	                {
-	                    "date": "2018-09-11",
-	                    "dayTime": "多云",
-	                    "night": "多云",
-	                    "temperature": "27°C / 17°C",
-	                    "week": "星期二",
-	                    "wind": "南风 3～4级"
-	                },
-	                {
-	                    "date": "2018-09-12",
-	                    "dayTime": "多云",
-	                    "night": "晴",
-	                    "temperature": "27°C / 16°C",
-	                    "week": "星期三",
-	                    "wind": "南风 小于3级"
-	                },
-	                {
-	                    "date": "2018-09-13",
-	                    "dayTime": "多云",
-	                    "night": "多云",
-	                    "temperature": "28°C / 17°C",
-	                    "week": "星期四",
 	                    "wind": "北风 小于3级"
 	                }
 	            ],
@@ -505,26 +375,6 @@ __JSON返回示例__：
 	                        "aqi": 80,
 	                        "date": "2018-09-09",
 	                        "quality": "良"
-	                    },
-	                    {
-	                        "aqi": 65,
-	                        "date": "2018-09-10",
-	                        "quality": "良"
-	                    },
-	                    {
-	                        "aqi": 80,
-	                        "date": "2018-09-11",
-	                        "quality": "良"
-	                    },
-	                    {
-	                        "aqi": 77,
-	                        "date": "2018-09-12",
-	                        "quality": "良"
-	                    },
-	                    {
-	                        "aqi": 82,
-	                        "date": "2018-09-13",
-	                        "quality": "良"
 	                    }
 	                ],
 	                "hourData": [
@@ -539,90 +389,6 @@ __JSON返回示例__：
 	                    {
 	                        "aqi": 42,
 	                        "dateTime": "2018-09-07 15:00:00"
-	                    },
-	                    {
-	                        "aqi": 43,
-	                        "dateTime": "2018-09-07 14:00:00"
-	                    },
-	                    {
-	                        "aqi": 43,
-	                        "dateTime": "2018-09-07 13:00:00"
-	                    },
-	                    {
-	                        "aqi": 49,
-	                        "dateTime": "2018-09-07 12:00:00"
-	                    },
-	                    {
-	                        "aqi": 54,
-	                        "dateTime": "2018-09-07 11:00:00"
-	                    },
-	                    {
-	                        "aqi": 54,
-	                        "dateTime": "2018-09-07 10:00:00"
-	                    },
-	                    {
-	                        "aqi": 53,
-	                        "dateTime": "2018-09-07 09:00:00"
-	                    },
-	                    {
-	                        "aqi": 53,
-	                        "dateTime": "2018-09-07 08:00:00"
-	                    },
-	                    {
-	                        "aqi": 50,
-	                        "dateTime": "2018-09-07 07:00:00"
-	                    },
-	                    {
-	                        "aqi": 49,
-	                        "dateTime": "2018-09-07 06:00:00"
-	                    },
-	                    {
-	                        "aqi": 52,
-	                        "dateTime": "2018-09-07 05:00:00"
-	                    },
-	                    {
-	                        "aqi": 64,
-	                        "dateTime": "2018-09-07 04:00:00"
-	                    },
-	                    {
-	                        "aqi": 77,
-	                        "dateTime": "2018-09-07 03:00:00"
-	                    },
-	                    {
-	                        "aqi": 82,
-	                        "dateTime": "2018-09-07 02:00:00"
-	                    },
-	                    {
-	                        "aqi": 80,
-	                        "dateTime": "2018-09-07 01:00:00"
-	                    },
-	                    {
-	                        "aqi": 90,
-	                        "dateTime": "2018-09-07 00:00:00"
-	                    },
-	                    {
-	                        "aqi": 94,
-	                        "dateTime": "2018-09-06 23:00:00"
-	                    },
-	                    {
-	                        "aqi": 95,
-	                        "dateTime": "2018-09-06 22:00:00"
-	                    },
-	                    {
-	                        "aqi": 105,
-	                        "dateTime": "2018-09-06 21:00:00"
-	                    },
-	                    {
-	                        "aqi": 102,
-	                        "dateTime": "2018-09-06 20:00:00"
-	                    },
-	                    {
-	                        "aqi": 94,
-	                        "dateTime": "2018-09-06 19:00:00"
-	                    },
-	                    {
-	                        "aqi": 90,
-	                        "dateTime": "2018-09-06 18:00:00"
 	                    }
 	                ],
 	                "no2": 32,
@@ -655,46 +421,6 @@ __JSON返回示例__：
 	                    "temperature": "27°C / 20°C",
 	                    "week": "星期六",
 	                    "wind": "北风 3～4级"
-	                },
-	                {
-	                    "date": "2018-09-09",
-	                    "dayTime": "多云",
-	                    "night": "多云",
-	                    "temperature": "27°C / 19°C",
-	                    "week": "星期日",
-	                    "wind": "东北风 小于3级"
-	                },
-	                {
-	                    "date": "2018-09-10",
-	                    "dayTime": "多云",
-	                    "night": "多云",
-	                    "temperature": "28°C / 20°C",
-	                    "week": "星期一",
-	                    "wind": "东北风 小于3级"
-	                },
-	                {
-	                    "date": "2018-09-11",
-	                    "dayTime": "阴",
-	                    "night": "多云",
-	                    "temperature": "28°C / 23°C",
-	                    "week": "星期二",
-	                    "wind": "东北风 小于3级"
-	                },
-	                {
-	                    "date": "2018-09-12",
-	                    "dayTime": "阵雨",
-	                    "night": "多云",
-	                    "temperature": "28°C / 24°C",
-	                    "week": "星期三",
-	                    "wind": "东北风 小于3级"
-	                },
-	                {
-	                    "date": "2018-09-13",
-	                    "dayTime": "阵雨",
-	                    "night": "多云",
-	                    "temperature": "29°C / 24°C",
-	                    "week": "星期四",
-	                    "wind": "东北风 小于3级"
 	                }
 	            ],
 	            "humidity": "湿度：81%",
@@ -920,90 +646,6 @@ __JSON返回示例__：
 	                {
 	                    "aqi": 52,
 	                    "dateTime": "2018-09-09 07:00:00"
-	                },
-	                {
-	                    "aqi": 53,
-	                    "dateTime": "2018-09-09 06:00:00"
-	                },
-	                {
-	                    "aqi": 54,
-	                    "dateTime": "2018-09-09 05:00:00"
-	                },
-	                {
-	                    "aqi": 49,
-	                    "dateTime": "2018-09-09 04:00:00"
-	                },
-	                {
-	                    "aqi": 50,
-	                    "dateTime": "2018-09-09 03:00:00"
-	                },
-	                {
-	                    "aqi": 50,
-	                    "dateTime": "2018-09-09 02:00:00"
-	                },
-	                {
-	                    "aqi": 50,
-	                    "dateTime": "2018-09-09 01:00:00"
-	                },
-	                {
-	                    "aqi": 49,
-	                    "dateTime": "2018-09-09 00:00:00"
-	                },
-	                {
-	                    "aqi": 46,
-	                    "dateTime": "2018-09-08 23:00:00"
-	                },
-	                {
-	                    "aqi": 47,
-	                    "dateTime": "2018-09-08 22:00:00"
-	                },
-	                {
-	                    "aqi": 44,
-	                    "dateTime": "2018-09-08 21:00:00"
-	                },
-	                {
-	                    "aqi": 39,
-	                    "dateTime": "2018-09-08 20:00:00"
-	                },
-	                {
-	                    "aqi": 37,
-	                    "dateTime": "2018-09-08 19:00:00"
-	                },
-	                {
-	                    "aqi": 32,
-	                    "dateTime": "2018-09-08 18:00:00"
-	                },
-	                {
-	                    "aqi": 31,
-	                    "dateTime": "2018-09-08 17:00:00"
-	                },
-	                {
-	                    "aqi": 30,
-	                    "dateTime": "2018-09-08 16:00:00"
-	                },
-	                {
-	                    "aqi": 29,
-	                    "dateTime": "2018-09-08 15:00:00"
-	                },
-	                {
-	                    "aqi": 27,
-	                    "dateTime": "2018-09-08 14:00:00"
-	                },
-	                {
-	                    "aqi": 24,
-	                    "dateTime": "2018-09-08 13:00:00"
-	                },
-	                {
-	                    "aqi": 20,
-	                    "dateTime": "2018-09-08 12:00:00"
-	                },
-	                {
-	                    "aqi": 17,
-	                    "dateTime": "2018-09-08 11:00:00"
-	                },
-	                {
-	                    "aqi": 18,
-	                    "dateTime": "2018-09-08 10:00:00"
 	                }
 	            ],
 	            "no2": 39,
@@ -1043,169 +685,17 @@ phone	|int|	是	|要查询的手机号码	|13300001982
 
 __返回字段__：
 
-<table>
-<tbody><tr>
-    <th>name</th>
-    <th>type</th>
-    <th>N</th>
-    <th>D</th>
-    <th>value</th>
-</tr>
-                                <tr>
-        <td>retCode</td>
-        <td>string</td>
-        <td>是</td>
-        <td>返回码</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>msg</td>
-        <td>string</td>
-        <td>是</td>
-        <td>返回说明</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>result</td>
-        <td>string</td>
-        <td>是</td>
-        <td>返回结果集</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>airCondition</td>
-        <td>string</td>
-        <td>是</td>
-        <td>空气质量</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>city</td>
-        <td>string</td>
-        <td>是</td>
-        <td>城市</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>coldIndex</td>
-        <td>string</td>
-        <td>是</td>
-        <td>感冒指数</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>updateTime</td>
-        <td>string</td>
-        <td>是</td>
-        <td>更新时间</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>date</td>
-        <td>string</td>
-        <td>是</td>
-        <td>日期</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>distrct</td>
-        <td>string</td>
-        <td>是</td>
-        <td>区县</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>dressingIndex</td>
-        <td>string</td>
-        <td>是</td>
-        <td>穿衣指数</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>humidity</td>
-        <td>string</td>
-        <td>是</td>
-        <td>湿度</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>pollutionIndex</td>
-        <td>string</td>
-        <td>是</td>
-        <td>空气污染指数</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>province</td>
-        <td>string</td>
-        <td>是</td>
-        <td>省份</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>sunset</td>
-        <td>string</td>
-        <td>是</td>
-        <td>日落时间</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>sunrise</td>
-        <td>string</td>
-        <td>是</td>
-        <td>日出时间</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>temperature</td>
-        <td>string</td>
-        <td>是</td>
-        <td>温度</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>time</td>
-        <td>string</td>
-        <td>是</td>
-        <td>时间</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>washIndex</td>
-        <td>string</td>
-        <td>是</td>
-        <td>洗车指数</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>weather</td>
-        <td>string</td>
-        <td>是</td>
-        <td>天气</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>week</td>
-        <td>string</td>
-        <td>是</td>
-        <td>星期</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>wind</td>
-        <td>string</td>
-        <td>是</td>
-        <td>风向</td>
-        <td></td>
-    </tr>
-                                <tr>
-        <td>exerciseIndex</td>
-        <td>string</td>
-        <td>是</td>
-        <td>运动指数</td>
-        <td></td>
-    </tr>
-</tbody></table>	
+|name	|type|	N	|D	|
+|------|------|------|------|
+retCode	|string|	是	|返回码	
+msg	|string	|是	|返回说明	
+result	|string|	是	|返回结果集	
+province|	string	|是	|省份	
+city	|string	|是|城市	
+cityCode|	string	|是	|城市区号	
+mobileNumber	|string	|是	|手机号前7位	
+zipCode	|string	|是|	邮编	
+operator	|string	|是	|运营商信息
 
 __JSON返回示例__：
 
@@ -1223,6 +713,208 @@ __JSON返回示例__：
 	    "retCode": "200"
 	}
 
+<h3 id="2.2">身份证信息查询接口</h3>
+
+
+__接口地址__：`http://apicloud.mob.com/idcard/query`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/idcard/query?key=1af5f5c45b9f8&cardno=45102519800411512X](http://apicloud.mob.com/idcard/query?key=1af5f5c45b9f8&cardno=45102519800411512X)
+
+__备注说明__：`查询身份证的基本信息`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||
+cardno	|string	|是	|身份证号码|
+
+__返回参数__:
+
+|name	|type|	N	|D	|
+|------|------|------|------|
+retCode|	string|	是	|返回码	
+msg	|string|	是|	返回说明	
+result	|string	|是|	返回结果集	
+area	|string	|是|	身份证所属地区	
+birthday	|string	|是	|生日	
+sex	|string	|是	|性别
+
+__JSON返回示例__:
+
+	{
+	    "msg": "success",
+	    "result": {
+	        "area": "广西壮族自治区百色市靖西县",
+	        "birthday": "1980年04月11日",
+	        "sex": "女"
+	    },
+	    "retCode": "200"
+	}
+
+
+<h3 id="2.3">IP地址查询接口</h3>
+
+
+__接口地址__：`http://apicloud.mob.com/ip/query`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/station/query?key=1af5f5c45b9f8&ip=222.73.199.34](http://apicloud.mob.com/station/query?key=1af5f5c45b9f8&ip=222.73.199.34)
+
+__备注说明__：`根据IP地址查询对应的省市区信息`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||
+ip	|string	|是	|要查询的IP地址||
+
+__返回参数__:
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+retCode|	string|	是	|返回码	
+msg	|string|	是|	返回说明	
+result	|string	|是|	返回结果集	
+ip	|string|	是	|查询的ip地址	|
+country|	string	|是	|国家|	
+province|	string|	是|	省	|
+city	|string|	是	|市	|
+district	|string	|是	|区|
+
+__JSON返回示例__:
+
+	{
+	    "msg": "success",
+	    "result": {
+	        "city": "上海",
+	        "country": "中国",
+	        "ip": "222.73.199.34",
+	        "province": "上海"
+	    },
+	    "retCode": "200"
+	}
+
+
+<h3 id="2.4">基站定位查询接口</h3>
+
+
+__接口地址__：`http://apicloud.mob.com/station/query`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/station/query?key=1af5f5c45b9f8&mcc=460&mnc=0&lac=34860&cell=62041](http://apicloud.mob.com/station/query?key=1af5f5c45b9f8&mcc=460&mnc=0&lac=34860&cell=62041)
+
+__备注说明__：`通过MNC、LAC、CELL 进行基站定位查询，覆盖全国移动、联通、电信基站数据`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||
+mcc|	int	|否	|移动设备国家代码（默认中国 = 460）|
+mnc	|int|	是	|移动设备网络代码(中国移动 = 0/2/7, 中国联通 = 1/6, 中国电信 = 3/5)|
+lac|	long	|是|	位置区码|	
+cell|	long	|是	|基站小区号|
+
+__返回字段__：
+
+|name	|type|	N	|D	|
+|------|------|------|------|
+retCode	|string	|是	|返回码	
+msg|	string|	是	|返回说明	
+result|	string|	是	|返回结果集	
+lat	|double	|是|	纬度	
+googleLat|	double	|是|	google地图纬度	
+googleLng|	double|	是|	google地图经度	
+precision|	double|	是	|覆盖范围（单位/米）
+addr	|string	|是|	基站位置	
+lng	|double|	是	|经度
+
+__JSON返回示例__:
+
+	{
+	    "msg": "success",
+	    "result": {
+	        "addr": "云南省西双版纳傣族自治州景洪市嘎洒镇傣家印象西,026乡道西南约348米",
+	        "cell": 62041,
+	        "googleLat": 22.01428,
+	        "googleLng": 100.752143,
+	        "id": "0_34860_62041",
+	        "lac": 34860,
+	        "lat": 22.0171,
+	        "lng": 100.751,
+	        "mcc": 460,
+	        "mnc": 0,
+	        "precision": 1500
+	    },
+	    "retCode": "200"
+	}
+
+<h3 id="2.5">万年历查询接口</h3>
+
+
+__接口地址__：`http://apicloud.mob.com/appstore/calendar/day`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/appstore/calendar/day?key=1af5f5c45b9f8&date=2015-05-01](http://apicloud.mob.com/appstore/calendar/day?key=1af5f5c45b9f8&date=2015-05-01)
+
+__备注说明__：`支持通过指定日期获得万年历的数据`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||
+date |	string|	是|	日期|	2015-05-01
+
+
+__返回字段__：
+
+|name	|type|	N	|D	|
+|------|------|------|------|
+retCode	|string	|是	|返回码	
+msg|	string|	是	|返回说明	
+result|	string|	是	|返回结果集	
+avoid|	string|	是	|不宜/忌	|
+date|	string|	是	|日期	|
+holiday	|string	|否	|节假日(不是节假日的日期数据为空)|
+lunar|	string|	是	|农历日期	|
+lunarYear|	string|	是|	农历年	|
+suit|	string	|是	|宜|	
+weekday	|string	|是|	星期几	|
+zodiac	|string|	是|	生肖|
+
+__JSON返回示例__:
+
+	{
+	    "msg": "success",
+	    "result": {
+	        "avoid": "诉讼 诉讼 ",
+	        "date": "2018-09-09",
+	        "holiday": "毛泽东逝世纪念",
+	        "lunar": "七月卅十",
+	        "lunarHoliday": "地藏菩萨诞",
+	        "lunarYear": "戊戌",
+	        "suit": "入学 开市 入学 嫁娶 上官 赴任 婚礼 造作 动土 旅行 ",
+	        "weekday": "星期日",
+	        "zodiac": "狗"
+	    },
+	    "retCode": "200"
+	}
 
 <h2 id="3">邮编查询</h2>
 
@@ -1463,66 +1155,6 @@ __JSON返回示例__：
 	                        {
 	                            "district": "朝阳区",
 	                            "id": "10012"
-	                        },
-	                        {
-	                            "district": "宣武区",
-	                            "id": "10013"
-	                        },
-	                        {
-	                            "district": "西城区",
-	                            "id": "10014"
-	                        },
-	                        {
-	                            "district": "通州区",
-	                            "id": "10015"
-	                        },
-	                        {
-	                            "district": "顺义区",
-	                            "id": "10016"
-	                        },
-	                        {
-	                            "district": "平谷区",
-	                            "id": "10017"
-	                        },
-	                        {
-	                            "district": "怀柔区",
-	                            "id": "10018"
-	                        },
-	                        {
-	                            "district": "海淀区",
-	                            "id": "10019"
-	                        },
-	                        {
-	                            "district": "丰台区",
-	                            "id": "100110"
-	                        },
-	                        {
-	                            "district": "房山区",
-	                            "id": "100111"
-	                        },
-	                        {
-	                            "district": "东城区",
-	                            "id": "100112"
-	                        },
-	                        {
-	                            "district": "大兴区",
-	                            "id": "100113"
-	                        },
-	                        {
-	                            "district": "崇文区",
-	                            "id": "100114"
-	                        },
-	                        {
-	                            "district": "昌平区",
-	                            "id": "100115"
-	                        },
-	                        {
-	                            "district": "延庆县",
-	                            "id": "10010"
-	                        },
-	                        {
-	                            "district": "密云县",
-	                            "id": "10011"
 	                        }
 	                    ],
 	                    "id": "1001"
@@ -1791,48 +1423,6 @@ __JSON返回示例__：
 	                            "name": "素菜",
 	                            "parentId": "0010001002"
 	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001009",
-	                            "name": "汤粥",
-	                            "parentId": "0010001002"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001010",
-	                            "name": "西点",
-	                            "parentId": "0010001002"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001011",
-	                            "name": "主食",
-	                            "parentId": "0010001002"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001012",
-	                            "name": "饮品",
-	                            "parentId": "0010001002"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001013",
-	                            "name": "便当",
-	                            "parentId": "0010001002"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001014",
-	                            "name": "小吃",
-	                            "parentId": "0010001002"
-	                        }
 	                    }
 	                ]
 	            },
@@ -1863,90 +1453,6 @@ __JSON返回示例__：
 	                            "name": "煎",
 	                            "parentId": "0010001003"
 	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001018",
-	                            "name": "炸",
-	                            "parentId": "0010001003"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001019",
-	                            "name": "焖",
-	                            "parentId": "0010001003"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001020",
-	                            "name": "炖",
-	                            "parentId": "0010001003"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001021",
-	                            "name": "蒸",
-	                            "parentId": "0010001003"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001022",
-	                            "name": "烩",
-	                            "parentId": "0010001003"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001023",
-	                            "name": "熏",
-	                            "parentId": "0010001003"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001024",
-	                            "name": "腌",
-	                            "parentId": "0010001003"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001025",
-	                            "name": "煮",
-	                            "parentId": "0010001003"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001026",
-	                            "name": "炝",
-	                            "parentId": "0010001003"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001027",
-	                            "name": "卤",
-	                            "parentId": "0010001003"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001028",
-	                            "name": "拌",
-	                            "parentId": "0010001003"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001029",
-	                            "name": "烤",
-	                            "parentId": "0010001003"
-	                        }
 	                    }
 	                ]
 	            },
@@ -1968,111 +1474,6 @@ __JSON返回示例__：
 	                        "categoryInfo": {
 	                            "ctgId": "0010001031",
 	                            "name": "川菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001032",
-	                            "name": "粤菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001033",
-	                            "name": "闽菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001034",
-	                            "name": "浙菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001035",
-	                            "name": "湘菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001036",
-	                            "name": "上海菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001037",
-	                            "name": "徽菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001038",
-	                            "name": "京菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001039",
-	                            "name": "东北菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001040",
-	                            "name": "西北菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001041",
-	                            "name": "客家菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001042",
-	                            "name": "台湾美食",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001043",
-	                            "name": "泰国菜",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001044",
-	                            "name": "日本料理",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001045",
-	                            "name": "韩国料理",
-	                            "parentId": "0010001004"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001046",
-	                            "name": "西餐",
 	                            "parentId": "0010001004"
 	                        }
 	                    }
@@ -2098,55 +1499,6 @@ __JSON返回示例__：
 	                            "name": "婴幼食谱",
 	                            "parentId": "0010001005"
 	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001049",
-	                            "name": "儿童食谱",
-	                            "parentId": "0010001005"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001050",
-	                            "name": "懒人食谱",
-	                            "parentId": "0010001005"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001051",
-	                            "name": "宵夜",
-	                            "parentId": "0010001005"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001052",
-	                            "name": "素食",
-	                            "parentId": "0010001005"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001053",
-	                            "name": "产妇食谱",
-	                            "parentId": "0010001005"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001054",
-	                            "name": "二人世界",
-	                            "parentId": "0010001005"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001055",
-	                            "name": "下午茶",
-	                            "parentId": "0010001005"
-	                        }
 	                    }
 	                ]
 	            },
@@ -2168,62 +1520,6 @@ __JSON返回示例__：
 	                        "categoryInfo": {
 	                            "ctgId": "0010001057",
 	                            "name": "便秘",
-	                            "parentId": "0010001006"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001058",
-	                            "name": "养胃",
-	                            "parentId": "0010001006"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001059",
-	                            "name": "滋阴",
-	                            "parentId": "0010001006"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001060",
-	                            "name": "补阳",
-	                            "parentId": "0010001006"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001061",
-	                            "name": "月经不调",
-	                            "parentId": "0010001006"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001062",
-	                            "name": "美容",
-	                            "parentId": "0010001006"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001063",
-	                            "name": "养生",
-	                            "parentId": "0010001006"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001064",
-	                            "name": "贫血",
-	                            "parentId": "0010001006"
-	                        }
-	                    },
-	                    {
-	                        "categoryInfo": {
-	                            "ctgId": "0010001065",
-	                            "name": "润肺",
 	                            "parentId": "0010001006"
 	                        }
 	                    }
@@ -2555,126 +1851,6 @@ __JSON返回示例__：
 	        {
 	            "cid": "3",
 	            "name": "健康"
-	        },
-	        {
-	            "cid": "5",
-	            "name": "百科"
-	        },
-	        {
-	            "cid": "7",
-	            "name": "娱乐"
-	        },
-	        {
-	            "cid": "8",
-	            "name": "美文"
-	        },
-	        {
-	            "cid": "9",
-	            "name": "旅行"
-	        },
-	        {
-	            "cid": "10",
-	            "name": "媒体达人"
-	        },
-	        {
-	            "cid": "11",
-	            "name": "搞笑"
-	        },
-	        {
-	            "cid": "12",
-	            "name": "影视音乐"
-	        },
-	        {
-	            "cid": "13",
-	            "name": "互联网"
-	        },
-	        {
-	            "cid": "14",
-	            "name": "文史"
-	        },
-	        {
-	            "cid": "15",
-	            "name": "金融"
-	        },
-	        {
-	            "cid": "16",
-	            "name": "体育"
-	        },
-	        {
-	            "cid": "17",
-	            "name": "游戏"
-	        },
-	        {
-	            "cid": "18",
-	            "name": "两性"
-	        },
-	        {
-	            "cid": "19",
-	            "name": "社交交友"
-	        },
-	        {
-	            "cid": "20",
-	            "name": "女人"
-	        },
-	        {
-	            "cid": "23",
-	            "name": "购物"
-	        },
-	        {
-	            "cid": "24",
-	            "name": "美女"
-	        },
-	        {
-	            "cid": "25",
-	            "name": "微信技巧"
-	        },
-	        {
-	            "cid": "26",
-	            "name": "星座"
-	        },
-	        {
-	            "cid": "27",
-	            "name": "美食"
-	        },
-	        {
-	            "cid": "28",
-	            "name": "教育"
-	        },
-	        {
-	            "cid": "29",
-	            "name": "职场"
-	        },
-	        {
-	            "cid": "30",
-	            "name": "酷品"
-	        },
-	        {
-	            "cid": "31",
-	            "name": "母婴"
-	        },
-	        {
-	            "cid": "32",
-	            "name": "摄影"
-	        },
-	        {
-	            "cid": "33",
-	            "name": "创投"
-	        },
-	        {
-	            "cid": "34",
-	            "name": "典藏"
-	        },
-	        {
-	            "cid": "35",
-	            "name": "家装"
-	        },
-	        {
-	            "cid": "36",
-	            "name": "汽车"
-	        },
-	        {
-	            "cid": "37",
-	            "name": "段子"
 	        }
 	    ],
 	    "retCode": "200"
@@ -2830,17 +2006,1326 @@ __JSON返回示例__：
 	    "retCode": "200"
 	}
 
+<h2 id="6">驾考题库</h2>
+
+<h3 id="6.1">科目一题库列表查询接口</h3>
 
 
+__接口地址__：`http://apicloud.mob.com/tiku/kemu1/query`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/tiku/kemu1/query?key=1af5f5c45b9f8&page=1&size=20](http://apicloud.mob.com/tiku/kemu1/query?key=1af5f5c45b9f8&page=1&size=20)
+
+__备注说明__：`提供科目一、科目四、以及专项练习题库`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||
+page|	int|	否|	查询起始页：默认为1	|
+size	|int	|否|	查询页大小：默认为10	|
+
+__返回字段__：
+
+|name	|type|	N|	D|	value|
+|------|------|------|------|------|
+retCode|	string	|是|	返回码	||
+msg	|string|	是|	返回说明	||
+result|	string|	是|	返回结果集	||
+id	|string|	是	|题库id	|
+title	|string|	是|	标题	|
+a	|string	|是|	选项A	|
+b	|string	|是|	选项B	|
+c	|string	|是|	选项C	|
+d	|string	|是	|选项D	|
+val|string|是|答案选项（如果是选择题，则1-a,2-b,3-c,4-d；如果是判断题，则1=正确，0=错误）	|
+file|	string|	是|	图片文件链接url	|
+explainText	|string	|是	|答案解释	|
+tikuType	|string|	是	|题库类型:判断题-judge ; 选择题-select|
+
+__JSON返回示例__：
+
+	{
+	    "msg": "success",
+	    "result": {
+	        "curPage": 1,
+	        "list": [
+	            {
+	                "a": "注意新手标志",
+	                "b": "注意避让标志",
+	                "c": "统一式样的实习标志",
+	                "d": "注意车距标志",
+	                "explainText": "试题解释：《公安部令第123号》第六十四条规定：在实习期内驾驶机动车的，应当在车身后部粘贴或者悬挂统一式样的实习标志。",
+	                "file": "",
+	                "id": "1536",
+	                "tikuType": "select",
+	                "title": "在实习期内驾驶机动车的，应当在车身后部粘贴或者悬挂哪种标志？",
+	                "val": "3"
+	            },
+	            {
+	                "a": "3年内",
+	                "b": "终身",
+	                "c": "1年内",
+	                "d": "5年内",
+	                "explainText": "试题解释：记住最核心的“吊二撤三醉五逃终身”！ 《公安部令第123号》第七十八条规定：申请人以欺骗、贿赂等不正当手段取得机动车驾驶证的，公安机关交通管理部门收缴机动车驾驶证，撤销机动车驾驶许可；申请人在三年内不得再次申领机动车驾驶证。吊销机动车证的为二年，撤销机动车证的为三年，以醉酒吊销五年，因逃跑而吊销是终身，叫“吊二撤三醉五逃终身”。",
+	                "file": "",
+	                "id": "1537",
+	                "tikuType": "select",
+	                "title": "以欺骗、贿赂等不正当手段取得驾驶证被依法撤销驾驶许可的，多长时间不得重新申请驾驶许可？",
+	                "val": "1"
+	            }
+	        ],
+	        "total": 1311
+	    },
+	    "retCode": "200"
+	}
 
 
+<h3 id="6.2">科目四题库列表查询接口</h3>
 
 
+__接口地址__：`http://apicloud.mob.com/tiku/kemu4/query`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/tiku/kemu4/query?key=1af5f5c45b9f8&page=1&size=20](http://apicloud.mob.com/tiku/kemu4/query?key=1af5f5c45b9f8&page=1&size=20)
+
+__备注说明__：`提供科目一、科目四、以及专项练习题库`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||	
+page|	int|	否|	查询起始页：默认为1	|
+size	|int	|否|	查询页大小：默认为10	|
+
+__返回字段__：
+
+|name	|type|	N|	D|	value|
+|------|------|------|------|------|
+retCode|	string	|是|	返回码	||
+msg	|string|	是|	返回说明	||
+result|	string|	是|	返回结果集	||
+id	|string|	是	|题库id	|
+title	|string|	是|	标题	|
+a	|string	|是|	选项A	|
+b	|string	|是|	选项B	|
+c	|string	|是|	选项C	|
+d	|string	|是	|选项D	|
+val|string|是|答案选项（如果是选择题，则1-a,2-b,3-c,4-d；如果是判断题，则1=正确，0=错误）	|
+file|	string|	是|	图片文件链接url	|
+explainText	|string	|是	|答案解释	|
+tikuType	|string|	是	|题库类型:判断题-judge ; 选择题-select|
+
+__JSON返回示例__：
+
+	{
+	    "msg": "success",
+	    "result": {
+	        "curPage": 1,
+	        "list": [
+	            {
+	                "a": "观察机动车周围情况",
+	                "b": "不用观察周围情况",
+	                "c": "开启车门直接上车",
+	                "d": "注意观察天气情况",
+	                "explainText": "试题解释：注意“进入驾驶室前”，也就是上车前，因此本题选A。",
+	                "file": "",
+	                "id": "3143",
+	                "tikuType": "select",
+	                "title": "驾驶人进入驾驶室前，首先要做什么？",
+	                "val": "1"
+	            },
+	            {
+	                "a": "什么也不用检查",
+	                "b": "轮胎有没有清洗",
+	                "c": "备胎在什么位置",
+	                "d": "轮胎的紧固和气压",
+	                "explainText": "试题解释：对轮胎的检查是为了确保在行车过程中能安全行驶，由此本题应选D。",
+	                "file": "",
+	                "id": "3144",
+	                "tikuType": "select",
+	                "title": "出车前对轮胎进行哪些方面的检查？",
+	                "val": "4"
+	            }
+	        ],
+	        "total": 836
+	    },
+	    "retCode": "200"
+	}
+
+<h3 id="6.3">专项题库分类查询接口</h3>
 
 
+__接口地址__：`http://apicloud.mob.com/tiku/shitiku/category/query`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/tiku/shitiku/category/query?key=1af5f5c45b9f8](http://apicloud.mob.com/tiku/shitiku/category/query?key=1af5f5c45b9f8)
+
+__备注说明__：`提供科目一、科目四、以及专项练习题库`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||	
+
+__返回字段__：
+
+|name	|type|	N|	D|	value|
+|------|------|------|------|------|
+retCode|	string	|是|	返回码	||
+msg	|string|	是|	返回说明	||
+result|	string|	是|	返回结果集	||
+cid|	string	|是	|专项练习分类	|
+title|	string	|是	|标题|
+
+__JSON返回示例__：
+
+	{
+	    "msg": "success",
+	    "result": {
+	        "客车科目四考试题库2016": [
+	            {
+	                "cid": "193",
+	                "title": "违法行为综合判断与案例分析"
+	            },
+	            {
+	                "cid": "196",
+	                "title": "安全行车常识"
+	            }
+	        ],
+	        "小车科目四考试题库2016": [
+	            {
+	                "cid": "193",
+	                "title": "违法行为综合判断与案例分析"
+	            },
+	            {
+	                "cid": "195",
+	                "title": "安全行车常识"
+	            }
+	        ],
+	        "货车科目一考试题库2016": [
+	            {
+	                "cid": "183",
+	                "title": "道路交通安全法律、法规和规章"
+	            },
+	            {
+	                "cid": "184",
+	                "title": "道路交通信号"
+	            }
+	        ],
+	        "小车科目一考试题库2016": [
+	            {
+	                "cid": "183",
+	                "title": "道路交通安全法律、法规和规章"
+	            },
+	            {
+	                "cid": "184",
+	                "title": "道路交通信号"
+	            },
+	            {
+	                "cid": "185",
+	                "title": "安全行车、文明驾驶基础知识"
+	            }
+	        ],
+	        "货车科目四考试题库2016": [
+	            {
+	                "cid": "193",
+	                "title": "违法行为综合判断与案例分析"
+	            },
+	            {
+	                "cid": "196",
+	                "title": "安全行车常识"
+	            },
+	            {
+	                "cid": "198",
+	                "title": "常见交通标志、标线和交警手势信号辨识"
+	            }
+	        ],
+	        "客车科目一考试题库2016": [
+	            {
+	                "cid": "183",
+	                "title": "道路交通安全法律、法规和规章"
+	            },
+	            {
+	                "cid": "184",
+	                "title": "道路交通信号"
+	            }
+	        ]
+	    },
+	    "retCode": "200"
+	}
 
 
+<h3 id="6.4">专项练习题库查询接口</h3>
 
+
+__接口地址__：`http://apicloud.mob.com/wx/article/category/query`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/tiku/shitiku/query?key=1af5f5c45b9f8&page=1&size=20&cid=207](http://apicloud.mob.com/tiku/shitiku/query?key=1af5f5c45b9f8&page=1&size=20&cid=207)
+
+__备注说明__：`提供科目一、科目四、以及专项练习题库`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||	
+page|	int|	否|	查询起始页：默认为1	|
+size	|int	|否|	查询页大小：默认为10	|
+cid	|string	|是	|分类id	|
+
+
+__返回字段__：
+
+|name	|type|	N|	D|	value|
+|------|------|------|------|------|
+retCode|	string	|是|	返回码	||
+msg	|string|	是|	返回说明	||
+result|	string|	是|	返回结果集	||
+id	|string|	是	|题库id	|
+title|	string|	是	|标题	|
+a	|string	|是|	选项A	|
+b|	string	|是|	选项B	|
+c	|string	|是	|选项C	|
+d	|string	|是|	选项D	|
+val	|string|	是	|答案选项（如果是选择题，则1-a,2-b,3-c,4-d；如果是判断题，则1=正确，0=错误）	
+file|	string	|是	|图片文件链接url	|
+explainText|	string	|是	|答案解释	|
+tikuType	|string|	是	|题库类型:判断题-judge ; 选择题-select|
+
+__JSON返回示例__：
+
+	{
+	    "msg": "success",
+	    "result": {
+	        "curPage": 1,
+	        "list": [
+	            {
+	                "explainText": "试题解释：正确的，所以要及时去处理扣分。",
+	                "id": "5128",
+	                "tikuType": "judge",
+	                "title": "机动车驾驶人在一个记分周期内累积记分达到12分，拒不参加学习和考试的，将被公安机关...",
+	                "val": "1"
+	            },
+	            {
+	                "explainText": "试题解释：《公安部令第123号》第十一条：1、申请小型汽车等准驾车型在18周岁以上、70周岁以下；2、申请低速载货汽车、三轮汽车等准驾车型的，在18周岁以上，60周岁以下。此题正确。本题车管所已经修正。",
+	                "id": "5129",
+	                "tikuType": "judge",
+	                "title": "申请小型汽车汽车驾驶证的，年龄应在18周岁以上70周岁以下。",
+	                "val": "1"
+	            }
+	        ],
+	        "total": 165
+	    },
+	    "retCode": "200"
+	}
+
+
+<h2 id="7">汽车信息查询</h2>
+
+<h3 id="7.1">查询所有汽车品牌</h3>
+
+
+__接口地址__：`http://apicloud.mob.com/car/brand/query`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/car/brand/query?key=1af5f5c45b9f8](http://apicloud.mob.com/car/brand/query?key=1af5f5c45b9f8)
+
+__备注说明__：`查询汽车品牌，汽车基本信息`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||
+
+__返回字段__：
+
+|name	|type|	N|	D|	value|
+|------|------|------|------|------|
+retCode|	string	|是|	返回码	||
+msg	|string|	是|	返回说明	||
+result|	string|	是|	返回结果集	||
+name|	string	|是	|汽车品牌	|
+car|	string	|是	|汽车子品牌或合资品牌	|
+type|	string	|是	|车系名称|
+
+__JSON返回示例__：
+
+	{
+	    "msg": "success",
+	    "result": [
+	        {
+	            "name": "AC Schnitzer",
+	            "son": [
+	                {
+	                    "car": "AC Schnitzer",
+	                    "type": "AC Schnitzer X5"
+	                }
+	            ]
+	        },
+	        {
+	            "name": "阿斯顿·马丁",
+	            "son": [
+	                {
+	                    "car": "阿斯顿·马丁",
+	                    "type": "Rapide"
+	                },
+	                {
+	                    "car": "阿斯顿·马丁",
+	                    "type": "拉共达Taraf"
+	                },
+	                {
+	                    "car": "阿斯顿·马丁",
+	                    "type": "V8 Vantage"
+	                },
+	                {
+	                    "car": "阿斯顿·马丁",
+	                    "type": "V12 Vantage"
+	                },
+	                {
+	                    "car": "阿斯顿·马丁",
+	                    "type": "阿斯顿·马丁DB9"
+	                },
+	                {
+	                    "car": "阿斯顿·马丁",
+	                    "type": "Vanquish"
+	                },
+	                {
+	                    "car": "阿斯顿·马丁",
+	                    "type": "阿斯顿·马丁DB11"
+	                }
+	            ]
+	        },
+	        {
+	            "name": "安凯客车",
+	            "son": [
+	                {
+	                    "car": "安凯客车",
+	                    "type": "宝斯通"
+	                }
+	            ]
+	        }
+	    ],
+	    "retCode": "200"
+	}
+
+
+<h3 id="7.2">车型查询</h3>
+
+
+__接口地址__：`http://apicloud.mob.com/car/seriesname/query`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/car/seriesname/query?key=1af5f5c45b9f8&name=Rapide](http://apicloud.mob.com/car/seriesname/query?key=1af5f5c45b9f8&name=Rapide)
+
+__备注说明__：`根据车系名称查询车型`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||
+name	|string	|是	|车系名称(从所有汽车品牌接口中取)|
+
+__返回字段__：
+
+|name	|type|	N|	D|	value|
+|------|------|------|------|------|
+retCode|	string	|是|	返回码	||
+msg	|string|	是|	返回说明	||
+result|	string|	是|	返回结果集	||
+brandName	|string|	是	|品牌名称	|
+carId	|string	|是	|数据id(查询车型详细信息用到)|
+guidePrice|	string|	是	|指导价	|
+seriesName|	string|	是	|车型名称|
+
+__JSON返回示例__：
+
+	{
+	    "msg": "success",
+	    "result": [
+	        {
+	            "brandName": "Rapide",
+	            "carId": "104012",
+	            "guidePrice": "298.80万",
+	            "seriesName": "Rapide 2016款 Rapide CE"
+	        },
+	        {
+	            "brandName": "Rapide",
+	            "carId": "104013",
+	            "guidePrice": "318.80万",
+	            "seriesName": "Rapide 2016款 Rapide Great Britain Edition"
+	        },
+	        {
+	            "brandName": "Rapide",
+	            "carId": "104014",
+	            "guidePrice": "364.50万",
+	            "seriesName": "Rapide 2016款 6.0L S"
+	        }
+	    ],
+	    "retCode": "200"
+	}
+
+<h3 id="7.3">查询车型详细信息</h3>
+
+
+__接口地址__：`http://apicloud.mob.com/car/series/query`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/car/series/query?key=1af5f5c45b9f8&cid=104013](http://apicloud.mob.com/car/series/query?key=1af5f5c45b9f8&cid=104013)
+
+__备注说明__：`查询车型详细信息`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||
+cid	|string	|是	|车型接口id|
+
+__返回字段__：
+
+|name	|type|	N|	D|	value|
+|------|------|------|------|------|
+retCode|	string	|是|	返回码	||
+msg	|string|	是|	返回说明	||
+result|	string|	是|	返回结果集	||
+brand	|string	|是|	品牌名称|	
+brandName|	string	|是	|车系名称	|
+carImage	|string	|是|	图片地址	|
+seriesName|	string|	是	|车型名称	|
+sonBrand	|string	|是	|子品牌或合资品牌|	
+baseInfo|	string	|是|	车型基本配置信息	|
+airConfig	|string	|是	|空调/冰箱配置信息	|
+carbody	|string	|是	|车身配置信息	|
+chassis	|string	|是	|底盘配置信息	|
+controlConfig|	string|	是|	操控配置信息|
+engine	|string	|是	|发动机配置信息	|
+exterConfig|	string	|是|	外部配置信息	|
+glassConfig|	string	|是|	玻璃/后视镜配置信息|
+interConfig|	string	|是|	内部配置信息	|
+lightConfig|	string	|是	|灯光配置信息	|
+mediaConfig|	string	|是	|多媒体配置信息	|
+safetyDevice|	string|	是|	安全装置信息|	
+seatConfig	|string|	是|	座椅配置信息|	
+techConfig	|string|	是	|高科技配置信息	|
+transmission	|string	|是|	变速箱信息	|
+wheelInfo	|string|	是	|车轮制动信息	|
+motorList	|string|	是	|电动机配置信息|
+
+__JSON返回示例__：
+
+	{
+	    "msg": "success",
+	    "result": [
+	        {
+	            "airConfig": [
+	                {
+	                    "name": "空调控制方式",
+	                    "value": "自动 1"
+	                },
+	                {
+	                    "name": "后排独立空调",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "后座出风口",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "温度分区控制",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "车内空气调节/花粉过滤",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "车载冰箱",
+	                    "value": "-"
+	                }
+	            ],
+	            "baseInfo": [
+	                {
+	                    "name": "车型名称",
+	                    "value": "Rapide 2016款 Rapide Great Britain Edition"
+	                },
+	                {
+	                    "name": "厂商指导价(元)",
+	                    "value": "318.80万"
+	                },
+	                {
+	                    "name": "厂商",
+	                    "value": "阿斯顿·马丁"
+	                },
+	                {
+	                    "name": "级别",
+	                    "value": "大型车"
+	                },
+	                {
+	                    "name": "发动机",
+	                    "value": "6.0L 558马力 V12"
+	                },
+	                {
+	                    "name": "变速箱",
+	                    "value": "8挡手自一体"
+	                },
+	                {
+	                    "name": "长*宽*高(mm)",
+	                    "value": "5019*2140*1360"
+	                },
+	                {
+	                    "name": "车身结构",
+	                    "value": "5门4座掀背车"
+	                },
+	                {
+	                    "name": "最高车速(km/h)",
+	                    "value": "306"
+	                },
+	                {
+	                    "name": "官方0-100km/h加速(s)",
+	                    "value": "4.6"
+	                },
+	                {
+	                    "name": "实测0-100km/h加速(s)",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "实测100-0km/h制动(m)",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "实测油耗(L/100km)",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "工信部综合油耗(L/100km)",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "实测离地间隙(mm)",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "整车质保",
+	                    "value": "三年不限公里"
+	                }
+	            ],
+	            "brand": "阿斯顿·马丁",
+	            "brandName": "Rapide",
+	            "carImage": "http://f2.mob.com/imgs/2016/06/30/3AA/K52JN3AM6KXU6IRI5KUA_240x180.jpg",
+	            "carbody": [
+	                {
+	                    "name": "长度(mm)",
+	                    "value": "5019"
+	                },
+	                {
+	                    "name": "宽度(mm)",
+	                    "value": "2140"
+	                },
+	                {
+	                    "name": "高度(mm)",
+	                    "value": "1360"
+	                },
+	                {
+	                    "name": "轴距(mm)",
+	                    "value": "2989"
+	                },
+	                {
+	                    "name": "前轮距(mm)",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "后轮距(mm)",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "最小离地间隙(mm)",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "整备质量(kg)",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "车身结构",
+	                    "value": "掀背车"
+	                },
+	                {
+	                    "name": "车门数(个)",
+	                    "value": "5"
+	                },
+	                {
+	                    "name": "座位数(个)",
+	                    "value": "4"
+	                },
+	                {
+	                    "name": "油箱容积(L)",
+	                    "value": "91"
+	                },
+	                {
+	                    "name": "行李厢容积(L)",
+	                    "value": "-"
+	                }
+	            ],
+	            "chassis": [
+	                {
+	                    "name": "驱动方式",
+	                    "value": "前置后驱"
+	                },
+	                {
+	                    "name": "前悬架类型",
+	                    "value": "螺旋弹簧双叉臂独立悬架"
+	                },
+	                {
+	                    "name": "后悬架类型",
+	                    "value": "螺旋弹簧双叉臂独立悬架"
+	                },
+	                {
+	                    "name": "助力类型",
+	                    "value": "电动助力"
+	                },
+	                {
+	                    "name": "车体结构",
+	                    "value": "承载式"
+	                }
+	            ],
+	            "controlConfig": [
+	                {
+	                    "name": "ABS防抱死",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "制动力分配(EBD/CBC等)",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "刹车辅助(EBA/BAS/BA等)",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "牵引力控制(ASR/TCS/TRC等)",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "车身稳定控制(ESC/ESP/DSC等)",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "上坡辅助",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "自动驻车",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "陡坡缓降",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "可变悬架",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "空气悬架",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "可变转向比",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "前桥限滑差速器/差速锁",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "中央差速器锁止功能",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "后桥限滑差速器/差速锁",
+	                    "value": "-"
+	                }
+	            ],
+	            "engine": [
+	                {
+	                    "name": "发动机型号",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "排量(mL)",
+	                    "value": "5935"
+	                },
+	                {
+	                    "name": "排量(L)",
+	                    "value": "6.0"
+	                },
+	                {
+	                    "name": "进气形式",
+	                    "value": "自然吸气"
+	                },
+	                {
+	                    "name": "气缸排列形式",
+	                    "value": "V"
+	                },
+	                {
+	                    "name": "气缸数(个)",
+	                    "value": "12"
+	                },
+	                {
+	                    "name": "每缸气门数(个)",
+	                    "value": "4"
+	                },
+	                {
+	                    "name": "压缩比",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "配气机构",
+	                    "value": "DOHC"
+	                },
+	                {
+	                    "name": "缸径(mm)",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "行程(mm)",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "最大马力(Ps)",
+	                    "value": "558"
+	                },
+	                {
+	                    "name": "最大功率(kW)",
+	                    "value": "410"
+	                },
+	                {
+	                    "name": "最大功率转速(rpm)",
+	                    "value": "6750"
+	                },
+	                {
+	                    "name": "最大扭矩(N·m)",
+	                    "value": "620"
+	                },
+	                {
+	                    "name": "最大扭矩转速(rpm)",
+	                    "value": "5500"
+	                },
+	                {
+	                    "name": "发动机特有技术",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "燃料形式",
+	                    "value": "汽油"
+	                },
+	                {
+	                    "name": "燃油标号",
+	                    "value": "97号(京95号)"
+	                },
+	                {
+	                    "name": "供油方式",
+	                    "value": "多点电喷"
+	                },
+	                {
+	                    "name": "缸盖材料",
+	                    "value": "铝"
+	                },
+	                {
+	                    "name": "缸体材料",
+	                    "value": "铝"
+	                },
+	                {
+	                    "name": "环保标准",
+	                    "value": "欧IV"
+	                }
+	            ],
+	            "exterConfig": [
+	                {
+	                    "name": "电动天窗",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "全景天窗",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "运动外观套件",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "铝合金轮圈",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "电动吸合门",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "侧滑门",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "电动后备厢",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "感应后备厢",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "车顶行李架",
+	                    "value": "-"
+	                }
+	            ],
+	            "glassConfig": [
+	                {
+	                    "name": "前/后电动车窗",
+	                    "value": "前 1/后 1"
+	                },
+	                {
+	                    "name": "车窗防夹手功能",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "防紫外线/隔热玻璃",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "后视镜电动调节",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "后视镜加热",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "内/外后视镜自动防眩目",
+	                    "value": "内 1/外-"
+	                },
+	                {
+	                    "name": "后视镜电动折叠",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "后视镜记忆",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "后风挡遮阳帘",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "后排侧遮阳帘",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "后排侧隐私玻璃",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "遮阳板化妆镜",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "后雨刷",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "感应雨刷",
+	                    "value": "1"
+	                }
+	            ],
+	            "interConfig": [
+	                {
+	                    "name": "真皮方向盘",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "方向盘调节",
+	                    "value": "上下+前后调节"
+	                },
+	                {
+	                    "name": "方向盘电动调节",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "多功能方向盘",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "方向盘换挡",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "方向盘加热",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "方向盘记忆",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "定速巡航",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "前/后驻车雷达",
+	                    "value": "前 1/后 1"
+	                },
+	                {
+	                    "name": "倒车视频影像",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "行车电脑显示屏",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "全液晶仪表盘",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "HUD抬头数字显示",
+	                    "value": "-"
+	                }
+	            ],
+	            "lightConfig": [
+	                {
+	                    "name": "近光灯",
+	                    "value": "氙气"
+	                },
+	                {
+	                    "name": "远光灯",
+	                    "value": "氙气"
+	                },
+	                {
+	                    "name": "日间行车灯",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "自适应远近光",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "自动头灯",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "转向辅助灯",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "转向头灯",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "前雾灯",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "大灯高度可调",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "大灯清洗装置",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "车内氛围灯",
+	                    "value": "-"
+	                }
+	            ],
+	            "mediaConfig": [
+	                {
+	                    "name": "GPS导航系统",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "定位互动服务",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "中控台彩色大屏",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "蓝牙/车载电话",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "车载电视",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "后排液晶屏",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "220V/230V电源",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "外接音源接口",
+	                    "value": "USB+AUX"
+	                },
+	                {
+	                    "name": "CD支持MP3/WMA",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "多媒体系统",
+	                    "value": "多碟CD"
+	                },
+	                {
+	                    "name": "扬声器品牌",
+	                    "value": "Bang & Olufsen"
+	                },
+	                {
+	                    "name": "扬声器数量",
+	                    "value": "-"
+	                }
+	            ],
+	            "safetyDevice": [
+	                {
+	                    "name": "主/副驾驶座安全气囊",
+	                    "value": "主 1/副 1"
+	                },
+	                {
+	                    "name": "前/后排侧气囊",
+	                    "value": "前 1/后-"
+	                },
+	                {
+	                    "name": "前/后排头部气囊(气帘)",
+	                    "value": "前 1/后 1"
+	                },
+	                {
+	                    "name": "膝部气囊",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "胎压监测装置",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "零胎压继续行驶",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "安全带未系提示",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "ISOFIX儿童座椅接口",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "发动机电子防盗",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "车内中控锁",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "遥控钥匙",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "无钥匙启动系统",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "无钥匙进入系统",
+	                    "value": "1"
+	                }
+	            ],
+	            "seatConfig": [
+	                {
+	                    "name": "座椅材质",
+	                    "value": "真皮"
+	                },
+	                {
+	                    "name": "运动风格座椅",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "座椅高低调节",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "腰部支撑调节",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "肩部支撑调节",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "主/副驾驶座电动调节",
+	                    "value": "主 1/副 1"
+	                },
+	                {
+	                    "name": "第二排靠背角度调节",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "第二排座椅移动",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "后排座椅电动调节",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "电动座椅记忆",
+	                    "value": "1"
+	                },
+	                {
+	                    "name": "前/后排座椅加热",
+	                    "value": "前 1/后 1"
+	                },
+	                {
+	                    "name": "前/后排座椅通风",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "前/后排座椅按摩",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "第三排座椅",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "后排座椅放倒方式",
+	                    "value": "比例放倒"
+	                },
+	                {
+	                    "name": "前/后中央扶手",
+	                    "value": "前 1/后 1"
+	                },
+	                {
+	                    "name": "后排杯架",
+	                    "value": "1"
+	                }
+	            ],
+	            "seriesName": "Rapide 2016款 Rapide Great Britain Edition",
+	            "sonBrand": "阿斯顿·马丁",
+	            "techConfig": [
+	                {
+	                    "name": "自动泊车入位",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "发动机启停技术",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "并线辅助",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "车道偏离预警系统",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "主动刹车/主动安全系统",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "整体主动转向系统",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "夜视系统",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "中控液晶屏分屏显示",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "自适应巡航",
+	                    "value": "-"
+	                },
+	                {
+	                    "name": "全景摄像头",
+	                    "value": "-"
+	                }
+	            ],
+	            "transmission": [
+	                {
+	                    "name": "简称",
+	                    "value": "8挡手自一体"
+	                },
+	                {
+	                    "name": "挡位个数",
+	                    "value": "8"
+	                },
+	                {
+	                    "name": "变速箱类型",
+	                    "value": "手自一体变速箱(AT)"
+	                }
+	            ],
+	            "wheelInfo": [
+	                {
+	                    "name": "前制动器类型",
+	                    "value": "通风盘式"
+	                },
+	                {
+	                    "name": "后制动器类型",
+	                    "value": "通风盘式"
+	                },
+	                {
+	                    "name": "驻车制动类型",
+	                    "value": "电子驻车"
+	                },
+	                {
+	                    "name": "前轮胎规格",
+	                    "value": "245/40 R20"
+	                },
+	                {
+	                    "name": "后轮胎规格",
+	                    "value": "295/35 R20"
+	                },
+	                {
+	                    "name": "备胎规格",
+	                    "value": "无"
+	                }
+	            ]
+	        }
+	    ],
+	    "retCode": "200"
+	}
 
 
 
