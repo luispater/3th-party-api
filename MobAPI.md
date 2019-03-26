@@ -5,6 +5,7 @@
 	- [1.2 根据城市名查询天气](#1.2)
 	- [1.3 根据IP查询天气](#1.3)
 	- [1.4 空气质量查询](#1.4)
+	- [1.5 空气质量城市列表接口](#1.5)
 - [2 生活常用](#2)
 	- [2.1 手机号码查询接口](#2.1)
 	- [2.2 身份证信息](#2.2)
@@ -31,6 +32,14 @@
 	- [7.1 查询所有汽车品牌](#7.1)
 	- [7.2 车型查询](#7.2)
 	- [7.3 查询车型详细信息](#7.3)
+- [8 休闲旅游](#8)
+	- [8.1 周公解梦](#8.1)
+	- [8.2 婚姻匹配](#8.2)
+	- [8.3 手机号测吉凶](#8.3)
+	- [8.4 八字算命](#8.4)
+	- [8.5 老黄历](#8.5)
+
+
 
 续。。。
 
@@ -660,6 +669,152 @@ __JSON返回示例__：
 	    "retCode": "200"
 	}
 
+
+<h3 id="1.5">空气质量查询城市列表接口</h3>
+
+
+__接口地址__：`http://apicloud.mob.com/environment/citys`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/environment/citys?key=1af5f5c45b9f8](http://apicloud.mob.com/environment/citys?key=1af5f5c45b9f8)
+
+__备注说明__：`空气质量支持的城市列表`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||
+
+__返回字段__：
+
+<table>
+<tbody><tr>
+<th>name</th>
+<th>type</th>
+<th>N</th>
+<th>D</th>
+<th>value</th>
+</tr><tr>
+<td>retCode</td>
+<td>string</td>
+<td>是</td>
+<td>返回码</td>
+<td></td>
+</tr><tr>
+<td>msg</td>
+<td>string</td>
+<td>是</td>
+<td>返回说明</td>
+<td></td>
+</tr><tr>
+<td>result</td>
+<td>string</td>
+<td>是</td>
+<td>返回结果集</td>
+<td></td>
+</tr> <tr>
+<td>province</td>
+<td>string</td>
+<td>是</td>
+<td>省份</td>
+<td></td>
+</tr><tr>
+<td>city</td>
+<td>string</td>
+<td>是</td>
+<td>城市</td>
+<td></td>
+</tr> <tr>
+<td>district</td>
+<td>string</td>
+<td>是</td>
+<td>区县</td>
+<td></td>
+</tr>
+</tbody></table>
+                                                    
+__JSON返回示例__：
+
+```
+{
+    "msg": "success",
+    "result": [
+        {
+            "city": [
+                {
+                    "city": "合肥",
+                    "district": [
+                        {
+                            "district": "合肥"
+                        },
+                        {
+                            "district": "长丰"
+                        },
+                        {
+                            "district": "肥东"
+                        },
+                        {
+                            "district": "肥西"
+                        },
+                        {
+                            "district": "巢湖"
+                        },
+                        {
+                            "district": "庐江"
+                        }
+                    ]
+                },
+                {
+                    "city": "安庆",
+                    "district": [
+                        {
+                            "district": "安庆"
+                        },
+                        {
+                            "district": "枞阳"
+                        },
+                        {
+                            "district": "太湖"
+                        },
+                        {
+                            "district": "潜山"
+                        },
+                        {
+                            "district": "怀宁"
+                        },
+                        {
+                            "district": "宿松"
+                        },
+                        {
+                            "district": "望江"
+                        },
+                        {
+                            "district": "岳西"
+                        },
+                        {
+                            "district": "桐城"
+                        }
+                    ]
+                },
+                {
+                    "city": "铜陵",
+                    "district": [
+                        {
+                            "district": "铜陵"
+                        }
+                    ]
+                }
+            ],
+            "province": "安徽"
+        }
+    ],
+    "retCode": "200"
+}
+```
 
 <h2 id="2">手机号码归属地</h2>
 
@@ -2539,7 +2694,7 @@ transmission	|string	|是|	变速箱信息	|
 wheelInfo	|string|	是	|车轮制动信息	|
 motorList	|string|	是	|电动机配置信息|
 
-__JSON返回示例__：
+__JSON返回示例__:
 
 	{
 	    "msg": "success",
@@ -3326,6 +3481,610 @@ __JSON返回示例__：
 	    ],
 	    "retCode": "200"
 	}
+
+<h2 id="8">休闲</h2>
+
+<h3 id="8.1">周公解梦</h3>
+
+
+__接口地址__：`http://apicloud.mob.com/appstore/dream/search`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/appstore/dream/search?key=1af5f5c45b9f8&name=蛇](http://apicloud.mob.com/appstore/dream/search?key=1af5f5c45b9f8&name=蛇)
+
+__备注说明__：`根据关键字查询梦境的含义`
+
+__请求参数__：
+
+|name	|type|	N	|D	|value|
+|------|------|------|------|------|
+key|	string|	是	|用户申请的appkey||	
+name|	string|	是	|梦源关键字	||	
+page|	int|	否	|页码（默认1）	||	
+size|	int|	否	|每页显示条数（默认20条）	||	
+
+__返回字段__：
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<th>name</th>
+<th>type</th>
+<th>N</th>
+<th>D</th>
+<th>value</th>
+</tr>
+                            <tr>
+    <td>retCode</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回码</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>msg</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回说明</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>result</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回结果集</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>page</td>
+    <td>int</td>
+    <td>是</td>
+    <td>日期</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>total</td>
+    <td>int</td>
+    <td>是</td>
+    <td>月份</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>name</td>
+    <td>string</td>
+    <td>是</td>
+    <td>梦源</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>detail</td>
+    <td>string</td>
+    <td>是</td>
+    <td>解说</td>
+    <td></td>
+</tr>
+                    </tbody></table>
+
+__JSON返回示例__:
+
+
+```
+{
+	    "msg": "success",
+	    "result": {
+	        "list": [
+	            {
+	                "detail": "梦见蛇，是凶兆。女人梦见蛇，自己和孩子都会病倒。梦见一对蛇，很快会分家。商人梦见一对蛇，能发大财。梦见蛇咬你自己，要交好运，生活会丰裕。但是梦见蛇咬自己妻子，是不祥之兆，会遇到忧愁不幸。梦见敌人被蛇咬伤，敌人会互相残杀,最后两败俱伤。梦见打死蛇，能征服敌人。梦见蛇钻进洞里，家里会被偷窃或被劫。梦见蛇捕捉老鼠或青蛙，会有不幸的消息。梦见蛇与猫争斗，所有的灾难都会过去。",
+	                "name": "蛇"
+	            }
+	        ],
+	        "page": 1,
+	        "total": 1
+	    },
+	    "retCode": "200"
+	}
+
+```
+
+
+<h3 id="8.2">婚姻匹配查询</h3>
+
+
+__接口地址__：`http://apicloud.mob.com/appstore/marriage/day`
+
+__支持格式__：`JSON`
+
+__请求方式__：`GET`
+
+__请求示例__：[http://apicloud.mob.com/appstore/marriage/day?key=1af5f5c45b9f8&menDate=1987-4-26&menHour=10&womanDate=1992-03-18&womanHour=11](http://apicloud.mob.com/appstore/marriage/day?key=1af5f5c45b9f8&menDate=1987-4-26&menHour=10&womanDate=1992-03-18&womanHour=11)
+
+__备注说明__:`分别根据男女出生日期和时间查询婚姻结果`
+
+__请求参数__:
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<th>name</th>
+<th>type</th>
+<th>N</th>
+<th>D</th>
+<th>value</th>
+</tr>
+                            <tr>
+    <td>key</td>
+    <td>string</td>
+    <td>是</td>
+    <td>用户申请的appkey</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>menDate</td>
+    <td>string</td>
+    <td>是</td>
+    <td>男：出生日期</td>
+    <td>1987-04-26</td>
+</tr>
+                            <tr>
+    <td>menHour</td>
+    <td>string</td>
+    <td>是</td>
+    <td>男：出生小时</td>
+    <td>10</td>
+</tr>
+                            <tr>
+    <td>womanDate</td>
+    <td>string</td>
+    <td>是</td>
+    <td>女：出生日期</td>
+    <td>1992-03-18</td>
+</tr>
+                            <tr>
+    <td>womanHour</td>
+    <td>string</td>
+    <td>是</td>
+    <td>女：出生小时</td>
+    <td>11</td>
+</tr>
+                    </tbody></table>	
+
+__返回字段__:
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<th>name</th>
+<th>type</th>
+<th>N</th>
+<th>D</th>
+<th>value</th>
+</tr>
+                            <tr>
+    <td>retCode</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回码</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>msg</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回说明</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>result</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回结果集</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>marriageType</td>
+    <td>string</td>
+    <td>是</td>
+    <td>婚姻匹配结果(可能匹配不了结果)</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>menLunar</td>
+    <td>string</td>
+    <td>是</td>
+    <td>男：阴历出生日期</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>menLunarTime</td>
+    <td>string</td>
+    <td>是</td>
+    <td>男：农历出生日期</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>menMarriage</td>
+    <td>string</td>
+    <td>是</td>
+    <td>男：犯什么婚姻类型 (可能会计算不到结果)</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>menZodiac</td>
+    <td>string</td>
+    <td>是</td>
+    <td>男：属相</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>womanLunar</td>
+    <td>string</td>
+    <td>是</td>
+    <td>女：阴历出生日期</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>wonmanLuarTime</td>
+    <td>string</td>
+    <td>是</td>
+    <td>女：农历出生日期</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>wonmanMarriage</td>
+    <td>string</td>
+    <td>是</td>
+    <td>女：犯什么婚姻类型(可能会计算不到结果)</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>wonmanZodiac</td>
+    <td>string</td>
+    <td>是</td>
+    <td>女：属相</td>
+    <td></td>
+</tr>
+                    </tbody></table>
+
+__JSON返回示例__:
+
+	{
+	    "msg": "success",
+	    "result": {
+	        "marriageType": "六煞婚",
+	        "menLunar": "一九八七年三月廿八",
+	        "menLunarTime": "丁卯年甲辰月甲辰日己巳时",
+	        "menMarriage": "女破男家",
+	        "menZodiac": "兔",
+	        "womanLunar": "一九九二年二月十五",
+	        "wonmanLuarTime": "壬申年癸卯月癸巳日丁巳时",
+	        "wonmanMarriage": "大狼籍,绝房,男扫女家",
+	        "wonmanZodiac": "猴"
+	    },
+	    "retCode": "200"
+	}
+
+
+<h3 id="8.3">手机号码查吉凶</h3>
+
+
+__接口地址__:`http://apicloud.mob.com/appstore/lucky/mobile/query`
+
+__支持格式__:`JSON`
+
+__请求方式__:`GET`
+
+__请求示例__:[http://apicloud.mob.com/appstore/lucky/mobile/query?key=1af5f5c45b9f8&mobile=13816863588](http://apicloud.mob.com/appstore/lucky/mobile/query?key=1af5f5c45b9f8&mobile=13816863588)
+
+__备注说明__:`分别根据男女出生日期和时间查询婚姻结果`
+
+__请求参数__:
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+    <th>name</th>
+    <th>type</th>
+    <th>N</th>
+    <th>D</th>
+    <th>value</th>
+</tr><tr>
+    <td>key</td>
+    <td>string</td>
+    <td>是</td>
+    <td>用户申请的appkey</td>
+    <td></td>
+</tr><tr>
+    <td>mobile</td>
+    <td>string</td>
+    <td>是</td>
+    <td>手机号</td>
+    <td></td>
+</tr></tbody></table>
+
+
+__返回字段__:
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+	<th>name</th>
+	<th>type</th>
+	<th>N</th>
+	<th>D</th>
+	<th>value</th>
+</tr><tr>
+    <td>retCode</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回码</td>
+    <td></td>
+</tr><tr>
+    <td>msg</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回说明</td>
+    <td></td> <tr>
+    <td>result</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回结果集</td>
+    <td></td>
+</tr> <tr>
+    <td>conclusion</td>
+    <td>string</td>
+    <td>是</td>
+    <td>吉凶描述</td>
+    <td></td>
+</tr></tbody></table>
+
+
+__JSON返回示例__:
+
+
+	{
+	    "msg": "success",
+	    "result": {
+	        "conclusion": "时来运转，事事如意，功成名就，富贵自来 吉"
+	    },
+	    "retCode": "200"
+	}
+
+
+<h3 id="8.4">八字算命</h3>
+
+
+__接口地址__ ：`http://apicloud.mob.com/appstore/horoscope/day`
+
+__支持格式__ ：`JSON`
+
+__请求方式__ ：`GET`
+
+__请求示例__ ：[http://apicloud.mob.com/appstore/horoscope/day?key=1af5f5c45b9f8&date=2016-01-19&hour=20](http://apicloud.mob.com/appstore/horoscope/day?key=1af5f5c45b9f8&date=2016-01-19&hour=20)
+
+__备注说明__ :`根据日期和小时数据进行简单八字算命`
+
+__请求参数__:
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+    <th>name</th>
+    <th>type</th>
+    <th>N</th>
+    <th>D</th>
+    <th>value</th>
+</tr><tr>
+    <td>key</td>
+    <td>string</td>
+    <td>是</td>
+    <td>用户申请的appkey</td>
+    <td></td>
+</tr><tr>
+    <td>mobile</td>
+    <td>string</td>
+    <td>是</td>
+    <td>手机号</td>
+    <td></td>
+</tr></tbody></table>
+
+__返回字段__:
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+	<th>name</th>
+	<th>type</th>
+	<th>N</th>
+	<th>D</th>
+	<th>value</th>
+</tr><tr>
+    <td>retCode</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回码</td>
+    <td></td>
+</tr><tr>
+    <td>msg</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回说明</td>
+    <td></td> <tr>
+    <td>result</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回结果集</td>
+    <td></td>
+</tr> <tr>
+    <td>conclusion</td>
+    <td>string</td>
+    <td>是</td>
+    <td>吉凶描述</td>
+    <td></td>
+</tr></tbody></table>
+
+__JSON返回示例__:
+
+```
+{
+    "msg": "success",
+    "result": {
+        "horoscope": "金玉出海日，临死，坐支，伤官。能歌善舞笔和墨，犹如白虎戏江水。冲在禄马登科甲，斑竹细雨伤情泪。子月，衰，伤官，无土运，鬼旺，风烛夭贱。丑月，虚名，轻财。寅月，偏财，不禄。卯月，合财，金玉满目。辰月，利路经商。巳月，武职显跃。午月，文官近卫。四季月，印旺富而有名，亥月，漂蓬，僧侣。",
+        "lunar": "二零一五年腊月初十",
+        "lunarDate": "乙未年己丑月庚子日丙戌时",
+        "zodiac": "羊"
+    },
+    "retCode": "200"
+}
+```
+
+
+<h3 id="8.5">老黄历</h3>
+
+
+__接口地址__ ：`http://apicloud.mob.com/appstore/laohuangli/day`
+
+__支持格式__ ：`JSON`
+
+__请求方式__ ：`GET`
+
+__请求示例__ ：[http://apicloud.mob.com/appstore/laohuangli/day?key=1af5f5c45b9f8&date=2016-01-19](http://apicloud.mob.com/appstore/laohuangli/day?key=1af5f5c45b9f8&date=2016-01-19)
+
+__备注说明__ ：`根据日期查询查询当前日期的老黄历信息`
+
+__请求参数__ ：
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+    <th>name</th>
+    <th>type</th>
+    <th>N</th>
+    <th>D</th>
+    <th>value</th>
+</tr>
+                                <tr>
+        <td>key</td>
+        <td>string</td>
+        <td>是</td>
+        <td>用户申请的appkey</td>
+        <td></td>
+    </tr>
+                                <tr>
+        <td>date</td>
+        <td>string</td>
+        <td>是</td>
+        <td>查询日期</td>
+        <td>2016-01-19</td>
+    </tr>
+                        </tbody></table>
+
+__返回字段__ ：
+
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<th>name</th>
+<th>type</th>
+<th>N</th>
+<th>D</th>
+<th>value</th>
+</tr>
+                            <tr>
+    <td>retCode</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回码</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>msg</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回说明</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>result</td>
+    <td>string</td>
+    <td>是</td>
+    <td>返回结果集</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>avoid</td>
+    <td>string</td>
+    <td>是</td>
+    <td>不宜/忌</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>date</td>
+    <td>string</td>
+    <td>是</td>
+    <td>查询日期</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>jishen</td>
+    <td>string</td>
+    <td>是</td>
+    <td>吉煞</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>lunar</td>
+    <td>string</td>
+    <td>是</td>
+    <td>农历日期</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>suit</td>
+    <td>string</td>
+    <td>是</td>
+    <td>宜</td>
+    <td></td>
+</tr>
+                            <tr>
+    <td>xiongshen</td>
+    <td>string</td>
+    <td>是</td>
+    <td>凶煞</td>
+    <td></td>
+</tr>
+                    </tbody></table>
+
+__JSON返回示例__ ：
+
+```
+{
+    "msg": "success",
+    "result": {
+        "avoid": "治目 修造 筑堤 ",
+        "date": "2016-01-19",
+        "jishen": "天德 月德 月德合 天成 天官 天马 天财 月空 天贵 天赦 母仓 福厚 大红砂 相日 煞贡 直星 人专 ",
+        "lunar": "乙未年十二月初十日",
+        "suit": "安床 ",
+        "xiongshen": "天吏 天狱 天地转煞 正四废 傍四废 白虎 玄武 勾陈 披麻 重丧 荒鞠 鲁班杀 斧头杀 万砍杀 五虚 重复 土禁 四时大墓 "
+    },
+    "retCode": "200"
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
