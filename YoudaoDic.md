@@ -3,6 +3,7 @@
 - [联想](#associate)
 - [释义](#explain)
 - [翻译](#translation)
+- [读音](#voice)
 
 <h2 id="associate">联想</h2>
 
@@ -1337,3 +1338,14 @@ json 示例：
 - `translateResult`：疑问结果
 	- `src`：原文
 	- `tgt`：译文
+
+<h2 id="voice">读音</h2>
+
+url：`https://dict.youdao.com/dictvoice`
+
+拼接参数：
+
+- `type`：读音类型。美式英语:`0` 或 英式英语:`1`
+- `audio`：查询关键词
+
+url 示例：[`http://dict.youdao.com/dictvoice?type=0&audio=information`](http://dict.youdao.com/dictvoice?type=0&audio=information)
